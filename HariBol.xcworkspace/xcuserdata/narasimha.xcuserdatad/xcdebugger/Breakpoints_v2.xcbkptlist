@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HariBol/view/ViewControllers/SubscriptionVC.swift"
-            timestampString = "575369649.374933"
+            timestampString = "577707874.9901741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "185"
@@ -33,6 +33,53 @@
             endingLineNumber = "345"
             landmarkName = "postSubscriptionDetails(httpMethod:parameters:onCompletion:onFailure:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in HariBol.HaribolAPI.postSubscriptionDetails(httpMethod: Alamofire.HTTPMethod, parameters: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, onCompletion: (Swift.Optional&lt;__C.NSDictionary&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; (), onFailure: (Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "HariBol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narasimha/DairyFoods/HariBol/view/ViewControllers/Network/HaribolAPI.swift"
+                  timestampString = "577707881.289892"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "346"
+                  endingLineNumber = "346"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HariBol.SubscriptionVC.paymentHandler(amount: Swift.String, products: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; ()"
+                  moduleName = "HariBol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narasimha/DairyFoods/HariBol/view/ViewControllers/Network/HaribolAPI.swift"
+                  timestampString = "577707881.295573"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "345"
+                  endingLineNumber = "345"
+                  offsetFromSymbolStart = "3964">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HariBol.FSCalendarScopeExampleViewController.updateOrderTapped(Any) -&gt; ()"
+                  moduleName = "HariBol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narasimha/DairyFoods/HariBol/view/ViewControllers/Network/HaribolAPI.swift"
+                  timestampString = "577707881.299358"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "345"
+                  endingLineNumber = "345"
+                  offsetFromSymbolStart = "2796">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -63,38 +110,38 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "329"
             endingLineNumber = "329"
-            landmarkName = "postSubscriptionDetails(httpMethod:parameters:onCompletion:onFailure:)"
-            landmarkType = "7">
+            landmarkName = "HaribolAPI"
+            landmarkType = "3">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[4] = Dead&gt; of HariBol.HaribolAPI.postSubscriptionDetails(httpMethod: Alamofire.HTTPMethod, parameters: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, onCompletion: (Swift.Optional&lt;__C.NSDictionary&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; (), onFailure: (Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HariBol.SubscriptionVC.paymentHandler(amount: Swift.String, products: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; ()"
                   moduleName = "HariBol"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/narasimha/hba_client_ios/HariBol/view/ViewControllers/Network/HaribolAPI.swift"
-                  timestampString = "575369649.684742"
+                  urlString = "file:///Users/narasimha/DairyFoods/HariBol/view/ViewControllers/Network/HaribolAPI.swift"
+                  timestampString = "577707881.315528"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "330"
-                  endingLineNumber = "330"
-                  offsetFromSymbolStart = "92">
+                  startingLineNumber = "332"
+                  endingLineNumber = "332"
+                  offsetFromSymbolStart = "3306">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "HariBol.SubscriptionVC.postProducts() -&gt; ()"
+                  symbolName = "HariBol.FSCalendarScopeExampleViewController.updateOrderTapped(Any) -&gt; ()"
                   moduleName = "HariBol"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/narasimha/hba_client_ios/HariBol/view/ViewControllers/Network/HaribolAPI.swift"
-                  timestampString = "575369649.686702"
+                  urlString = "file:///Users/narasimha/DairyFoods/HariBol/view/ViewControllers/Network/HaribolAPI.swift"
+                  timestampString = "577707881.319211"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "330"
-                  endingLineNumber = "330"
-                  offsetFromSymbolStart = "6316">
+                  startingLineNumber = "332"
+                  endingLineNumber = "332"
+                  offsetFromSymbolStart = "2118">
                </Location>
             </Locations>
          </BreakpointContent>
