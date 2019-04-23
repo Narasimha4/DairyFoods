@@ -1,0 +1,6 @@
+framework module Pods_HariBolUITests {
+  umbrella header "Pods-HariBolUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

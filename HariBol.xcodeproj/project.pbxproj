@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A6EB73FFBF818DFA181B25 /* Pods_HariBolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DD4DBE6DD64B108C69BF18 /* Pods_HariBolTests.framework */; };
+		430C4CD7220B38660094E60B /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430C4CD5220B38660094E60B /* iCarousel.m */; };
+		430C4CD9220B422E0094E60B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C4CD8220B422E0094E60B /* QuartzCore.framework */; };
+		4312D1AB221E8A6A007F3A38 /* Ordered_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312D1A9221E8A6A007F3A38 /* Ordered_Base.swift */; };
+		4312D1AC221E8A6A007F3A38 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312D1AA221E8A6A007F3A38 /* OrderData.swift */; };
+		4329F4142213BEAA00648B61 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329F4132213BEAA00648B61 /* MainViewCell.swift */; };
+		433B33742210586200F6618C /* BadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B33732210586200F6618C /* BadgeButton.swift */; };
+		43591B982206C17300C1D5A9 /* HaribolTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43591B972206C17200C1D5A9 /* HaribolTabVC.swift */; };
+		43591B9E2207041E00C1D5A9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43591B9D2207041E00C1D5A9 /* ProfileVC.swift */; };
+		438CE3A822186D7800CCB7AE /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CE3A722186D7800CCB7AE /* FeedbackVC.swift */; };
+		438CE3DD221BD55C00CCB7AE /* ProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CE3DC221BD55C00CCB7AE /* ProfileResponse.swift */; };
+		438CE40E221C217200CCB7AE /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CE40D221C217200CCB7AE /* UIImage+Extension.swift */; };
+		438CE413221C3D1400CCB7AE /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CE410221C3D1300CCB7AE /* Products.swift */; };
+		438CE414221C3D1400CCB7AE /* Datavalue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CE411221C3D1300CCB7AE /* Datavalue.swift */; };
+		438CE415221C3D1400CCB7AE /* Products_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CE412221C3D1400CCB7AE /* Products_Base.swift */; };
+		43BD17D122324D8800B79A15 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD17D022324D8700B79A15 /* SubscriptionModel.swift */; };
+		43CFD83622107EDD006A63D4 /* SelectedProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFD83522107EDD006A63D4 /* SelectedProductCell.swift */; };
+		43DBEF53224D311500ACE768 /* EmptyCart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43DBEF52224D311500ACE768 /* EmptyCart.xib */; };
+		43DBEF55224D336300ACE768 /* EmptyCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBEF54224D336300ACE768 /* EmptyCart.swift */; };
+		43ED986C22303A9200A2B8EB /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED986B22303A9100A2B8EB /* PaymentCell.swift */; };
+		43EDCB36222665A800D4497E /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EDCB35222665A800D4497E /* SubscriptionCell.swift */; };
+		43EFC66C220D8FD800FE37DA /* FSCalendarScopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFC66B220D8FD800FE37DA /* FSCalendarScopeViewController.swift */; };
+		43EFC670220EC61F00FE37DA /* CollapsibleProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFC66F220EC61F00FE37DA /* CollapsibleProductsVC.swift */; };
+		43EFC676220EE96700FE37DA /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFC675220EE96700FE37DA /* PaymentVC.swift */; };
+		43EFC678220EE98200FE37DA /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFC677220EE98200FE37DA /* NotificationsVC.swift */; };
+		43F93040222CF6C8007C3F0D /* VacationPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9303F222CF6C8007C3F0D /* VacationPlanVC.swift */; };
+		43F93080222D3186007C3F0D /* PayUServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9307F222D3186007C3F0D /* PayUServiceHelper.m */; };
+		63704E69D9C20A1D763296B7 /* Pods_HariBolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E0BB94D339758C76F2E39F /* Pods_HariBolUITests.framework */; };
+		97569FCB9018E79201FF9969 /* Pods_HariBol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257EC1B498315BAA2330A6E /* Pods_HariBol.framework */; };
+		ED24A07D21DA17EF0059B505 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A07C21DA17EF0059B505 /* UITextField+Extension.swift */; };
+		ED24A07F21DA34F60059B505 /* VerifyOTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A07E21DA34F60059B505 /* VerifyOTPVC.swift */; };
+		ED24A08121DA35D80059B505 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A08021DA35D80059B505 /* UIButton+Extension.swift */; };
+		ED24A08321DA3AE70059B505 /* AccountInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A08221DA3AE70059B505 /* AccountInfoVC.swift */; };
+		ED24A08521DA3EEC0059B505 /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A08421DA3EEC0059B505 /* AddressVC.swift */; };
+		ED24A08721DC823C0059B505 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A08621DC823C0059B505 /* UILabel+Extension.swift */; };
+		ED24A08C21DC8A8C0059B505 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A08921DC8A8C0059B505 /* MainViewController.swift */; };
+		ED44371221E1A07F00CFD2AB /* HaribolAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44371121E1A07F00CFD2AB /* HaribolAPI.swift */; };
+		ED44371621E1A32000CFD2AB /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44371421E1A32000CFD2AB /* ReachabilityManager.swift */; };
+		ED44371721E1A32000CFD2AB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44371521E1A32000CFD2AB /* Reachability.swift */; };
+		ED44371A21E1AEF300CFD2AB /* HaribolAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44371921E1AEF300CFD2AB /* HaribolAlert.swift */; };
+		ED57E64921DCF1F100F88EFA /* SubscriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57E64821DCF1F100F88EFA /* SubscriptionVC.swift */; };
+		ED57E64B21DCFA8300F88EFA /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57E64A21DCFA8300F88EFA /* ProductListCell.swift */; };
+		ED8CD72821D3BCF900DA82E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CD72721D3BCF900DA82E3 /* AppDelegate.swift */; };
+		ED8CD72A21D3BCF900DA82E3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CD72921D3BCF900DA82E3 /* LoginVC.swift */; };
+		ED8CD72D21D3BCF900DA82E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8CD72B21D3BCF900DA82E3 /* Main.storyboard */; };
+		ED8CD73021D3BCF900DA82E3 /* HariBol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED8CD72E21D3BCF900DA82E3 /* HariBol.xcdatamodeld */; };
+		ED8CD73221D3BCFC00DA82E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8CD73121D3BCFC00DA82E3 /* Assets.xcassets */; };
+		ED8CD73521D3BCFC00DA82E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8CD73321D3BCFC00DA82E3 /* LaunchScreen.storyboard */; };
+		ED8CD74021D3BCFC00DA82E3 /* HariBolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CD73F21D3BCFC00DA82E3 /* HariBolTests.swift */; };
+		ED8CD74B21D3BCFC00DA82E3 /* HariBolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CD74A21D3BCFC00DA82E3 /* HariBolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8CD73C21D3BCFC00DA82E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8CD71C21D3BCF900DA82E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8CD72321D3BCF900DA82E3;
+			remoteInfo = HariBol;
+		};
+		ED8CD74721D3BCFC00DA82E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8CD71C21D3BCF900DA82E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8CD72321D3BCF900DA82E3;
+			remoteInfo = HariBol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3146F40B45D662BEE653A651 /* Pods-HariBol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HariBol.release.xcconfig"; path = "Pods/Target Support Files/Pods-HariBol/Pods-HariBol.release.xcconfig"; sourceTree = "<group>"; };
+		430C4CD4220B38650094E60B /* HariBol-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HariBol-Bridging-Header.h"; sourceTree = "<group>"; };
+		430C4CD5220B38660094E60B /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		430C4CD6220B38660094E60B /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		430C4CD8220B422E0094E60B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4312D1A9221E8A6A007F3A38 /* Ordered_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ordered_Base.swift; sourceTree = "<group>"; };
+		4312D1AA221E8A6A007F3A38 /* OrderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderData.swift; sourceTree = "<group>"; };
+		4329F4132213BEAA00648B61 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		433B33732210586200F6618C /* BadgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeButton.swift; sourceTree = "<group>"; };
+		43591B972206C17200C1D5A9 /* HaribolTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaribolTabVC.swift; sourceTree = "<group>"; };
+		43591B9D2207041E00C1D5A9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		438CE3A722186D7800CCB7AE /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		438CE3DC221BD55C00CCB7AE /* ProfileResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileResponse.swift; sourceTree = "<group>"; };
+		438CE40D221C217200CCB7AE /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		438CE410221C3D1300CCB7AE /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		438CE411221C3D1300CCB7AE /* Datavalue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datavalue.swift; sourceTree = "<group>"; };
+		438CE412221C3D1400CCB7AE /* Products_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products_Base.swift; sourceTree = "<group>"; };
+		43BD17D022324D8700B79A15 /* SubscriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		43CFD83522107EDD006A63D4 /* SelectedProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedProductCell.swift; sourceTree = "<group>"; };
+		43DBEF52224D311500ACE768 /* EmptyCart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyCart.xib; sourceTree = "<group>"; };
+		43DBEF54224D336300ACE768 /* EmptyCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCart.swift; sourceTree = "<group>"; };
+		43ED986B22303A9100A2B8EB /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		43EDCB35222665A800D4497E /* SubscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		43EFC66B220D8FD800FE37DA /* FSCalendarScopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCalendarScopeViewController.swift; sourceTree = "<group>"; };
+		43EFC66F220EC61F00FE37DA /* CollapsibleProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleProductsVC.swift; sourceTree = "<group>"; };
+		43EFC675220EE96700FE37DA /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		43EFC677220EE98200FE37DA /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		43F9303F222CF6C8007C3F0D /* VacationPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationPlanVC.swift; sourceTree = "<group>"; };
+		43F9307E222D3186007C3F0D /* PayUServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUServiceHelper.h; sourceTree = "<group>"; };
+		43F9307F222D3186007C3F0D /* PayUServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUServiceHelper.m; sourceTree = "<group>"; };
+		4A467E13E302E0BEB144F891 /* Pods-HariBolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HariBolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HariBolUITests/Pods-HariBolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6257EC1B498315BAA2330A6E /* Pods_HariBol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HariBol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C8A68E8EC75AB1E4200D1C /* Pods-HariBolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HariBolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HariBolUITests/Pods-HariBolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9710D672AB59412454FC664A /* Pods-HariBol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HariBol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HariBol/Pods-HariBol.debug.xcconfig"; sourceTree = "<group>"; };
+		99CC354C8D19434DDCE0FAC9 /* Pods-HariBolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HariBolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HariBolTests/Pods-HariBolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2D44ECE3F472484D8BAC1F8 /* Pods-HariBolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HariBolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HariBolTests/Pods-HariBolTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6E0BB94D339758C76F2E39F /* Pods_HariBolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HariBolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED24A07C21DA17EF0059B505 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		ED24A07E21DA34F60059B505 /* VerifyOTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPVC.swift; sourceTree = "<group>"; };
+		ED24A08021DA35D80059B505 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		ED24A08221DA3AE70059B505 /* AccountInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoVC.swift; sourceTree = "<group>"; };
+		ED24A08421DA3EEC0059B505 /* AddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
+		ED24A08621DC823C0059B505 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		ED24A08921DC8A8C0059B505 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED44371121E1A07F00CFD2AB /* HaribolAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaribolAPI.swift; sourceTree = "<group>"; };
+		ED44371421E1A32000CFD2AB /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		ED44371521E1A32000CFD2AB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		ED44371921E1AEF300CFD2AB /* HaribolAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaribolAlert.swift; sourceTree = "<group>"; };
+		ED57E64821DCF1F100F88EFA /* SubscriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionVC.swift; sourceTree = "<group>"; };
+		ED57E64A21DCFA8300F88EFA /* ProductListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
+		ED8CD72421D3BCF900DA82E3 /* HariBol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HariBol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8CD72721D3BCF900DA82E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8CD72921D3BCF900DA82E3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		ED8CD72C21D3BCF900DA82E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8CD72F21D3BCF900DA82E3 /* HariBol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HariBol.xcdatamodel; sourceTree = "<group>"; };
+		ED8CD73121D3BCFC00DA82E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8CD73421D3BCFC00DA82E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8CD73621D3BCFC00DA82E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8CD73B21D3BCFC00DA82E3 /* HariBolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HariBolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8CD73F21D3BCFC00DA82E3 /* HariBolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HariBolTests.swift; sourceTree = "<group>"; };
+		ED8CD74121D3BCFC00DA82E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8CD74621D3BCFC00DA82E3 /* HariBolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HariBolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8CD74A21D3BCFC00DA82E3 /* HariBolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HariBolUITests.swift; sourceTree = "<group>"; };
+		ED8CD74C21D3BCFC00DA82E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DD4DBE6DD64B108C69BF18 /* Pods_HariBolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HariBolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8CD72121D3BCF900DA82E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430C4CD9220B422E0094E60B /* QuartzCore.framework in Frameworks */,
+				97569FCB9018E79201FF9969 /* Pods_HariBol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CD73821D3BCFC00DA82E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A6EB73FFBF818DFA181B25 /* Pods_HariBolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CD74321D3BCFC00DA82E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63704E69D9C20A1D763296B7 /* Pods_HariBolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138A4E9360CF72CC8D44BE40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				430C4CD8220B422E0094E60B /* QuartzCore.framework */,
+				6257EC1B498315BAA2330A6E /* Pods_HariBol.framework */,
+				F4DD4DBE6DD64B108C69BF18 /* Pods_HariBolTests.framework */,
+				D6E0BB94D339758C76F2E39F /* Pods_HariBolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		430C4CD3220B383B0094E60B /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				430C4CD6220B38660094E60B /* iCarousel.h */,
+				430C4CD5220B38660094E60B /* iCarousel.m */,
+				430C4CD4220B38650094E60B /* HariBol-Bridging-Header.h */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		438CE40F221C3CEE00CCB7AE /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				438CE3DC221BD55C00CCB7AE /* ProfileResponse.swift */,
+				43BD17D022324D8700B79A15 /* SubscriptionModel.swift */,
+				438CE411221C3D1300CCB7AE /* Datavalue.swift */,
+				438CE412221C3D1400CCB7AE /* Products_Base.swift */,
+				438CE410221C3D1300CCB7AE /* Products.swift */,
+				4312D1AA221E8A6A007F3A38 /* OrderData.swift */,
+				4312D1A9221E8A6A007F3A38 /* Ordered_Base.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		43EDCB33222535DC00D4497E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				43CFD83522107EDD006A63D4 /* SelectedProductCell.swift */,
+				ED57E64A21DCFA8300F88EFA /* ProductListCell.swift */,
+				4329F4132213BEAA00648B61 /* MainViewCell.swift */,
+				43EDCB35222665A800D4497E /* SubscriptionCell.swift */,
+				43ED986B22303A9100A2B8EB /* PaymentCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		43EFC66A220D8FBE00FE37DA /* CollapsiveCalender */ = {
+			isa = PBXGroup;
+			children = (
+				43EFC66B220D8FD800FE37DA /* FSCalendarScopeViewController.swift */,
+			);
+			path = CollapsiveCalender;
+			sourceTree = "<group>";
+		};
+		43F9307D222D3178007C3F0D /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				43F9307E222D3186007C3F0D /* PayUServiceHelper.h */,
+				43F9307F222D3186007C3F0D /* PayUServiceHelper.m */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		99A146178C68D61A7AF2B8E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9710D672AB59412454FC664A /* Pods-HariBol.debug.xcconfig */,
+				3146F40B45D662BEE653A651 /* Pods-HariBol.release.xcconfig */,
+				99CC354C8D19434DDCE0FAC9 /* Pods-HariBolTests.debug.xcconfig */,
+				C2D44ECE3F472484D8BAC1F8 /* Pods-HariBolTests.release.xcconfig */,
+				65C8A68E8EC75AB1E4200D1C /* Pods-HariBolUITests.debug.xcconfig */,
+				4A467E13E302E0BEB144F891 /* Pods-HariBolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED24A07921DA14EE0059B505 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CD72B21D3BCF900DA82E3 /* Main.storyboard */,
+				43DBEF52224D311500ACE768 /* EmptyCart.xib */,
+				ED24A07A21DA15100059B505 /* ViewControllers */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		ED24A07A21DA15100059B505 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CD72921D3BCF900DA82E3 /* LoginVC.swift */,
+				ED24A07E21DA34F60059B505 /* VerifyOTPVC.swift */,
+				ED24A08221DA3AE70059B505 /* AccountInfoVC.swift */,
+				ED24A08421DA3EEC0059B505 /* AddressVC.swift */,
+				ED24A08921DC8A8C0059B505 /* MainViewController.swift */,
+				ED57E64821DCF1F100F88EFA /* SubscriptionVC.swift */,
+				43591B972206C17200C1D5A9 /* HaribolTabVC.swift */,
+				43591B9D2207041E00C1D5A9 /* ProfileVC.swift */,
+				43EFC66F220EC61F00FE37DA /* CollapsibleProductsVC.swift */,
+				43EFC675220EE96700FE37DA /* PaymentVC.swift */,
+				43EFC677220EE98200FE37DA /* NotificationsVC.swift */,
+				438CE3A722186D7800CCB7AE /* FeedbackVC.swift */,
+				43F9303F222CF6C8007C3F0D /* VacationPlanVC.swift */,
+				43DBEF54224D336300ACE768 /* EmptyCart.swift */,
+				43F9307D222D3178007C3F0D /* Payment */,
+				43EDCB33222535DC00D4497E /* Cells */,
+				438CE40F221C3CEE00CCB7AE /* Codable */,
+				43EFC66A220D8FBE00FE37DA /* CollapsiveCalender */,
+				430C4CD3220B383B0094E60B /* Carousel */,
+				ED44371021E1A05400CFD2AB /* Network */,
+				ED44371821E1AEB400CFD2AB /* Utilities */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED24A07B21DA15EF0059B505 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED24A07C21DA17EF0059B505 /* UITextField+Extension.swift */,
+				ED24A08021DA35D80059B505 /* UIButton+Extension.swift */,
+				ED24A08621DC823C0059B505 /* UILabel+Extension.swift */,
+				438CE40D221C217200CCB7AE /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED44371021E1A05400CFD2AB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ED44371121E1A07F00CFD2AB /* HaribolAPI.swift */,
+				ED44371421E1A32000CFD2AB /* ReachabilityManager.swift */,
+				ED44371521E1A32000CFD2AB /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ED44371821E1AEB400CFD2AB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				433B33732210586200F6618C /* BadgeButton.swift */,
+				ED44371921E1AEF300CFD2AB /* HaribolAlert.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ED8CD71B21D3BCF900DA82E3 = {
+			isa = PBXGroup;
+			children = (
+				ED8CD72621D3BCF900DA82E3 /* HariBol */,
+				ED8CD73E21D3BCFC00DA82E3 /* HariBolTests */,
+				ED8CD74921D3BCFC00DA82E3 /* HariBolUITests */,
+				ED8CD72521D3BCF900DA82E3 /* Products */,
+				99A146178C68D61A7AF2B8E2 /* Pods */,
+				138A4E9360CF72CC8D44BE40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8CD72521D3BCF900DA82E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CD72421D3BCF900DA82E3 /* HariBol.app */,
+				ED8CD73B21D3BCFC00DA82E3 /* HariBolTests.xctest */,
+				ED8CD74621D3BCFC00DA82E3 /* HariBolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8CD72621D3BCF900DA82E3 /* HariBol */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CD72721D3BCF900DA82E3 /* AppDelegate.swift */,
+				ED24A07921DA14EE0059B505 /* view */,
+				ED24A07B21DA15EF0059B505 /* Extensions */,
+				ED8CD73121D3BCFC00DA82E3 /* Assets.xcassets */,
+				ED8CD73321D3BCFC00DA82E3 /* LaunchScreen.storyboard */,
+				ED8CD73621D3BCFC00DA82E3 /* Info.plist */,
+				ED8CD72E21D3BCF900DA82E3 /* HariBol.xcdatamodeld */,
+			);
+			path = HariBol;
+			sourceTree = "<group>";
+		};
+		ED8CD73E21D3BCFC00DA82E3 /* HariBolTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CD73F21D3BCFC00DA82E3 /* HariBolTests.swift */,
+				ED8CD74121D3BCFC00DA82E3 /* Info.plist */,
+			);
+			path = HariBolTests;
+			sourceTree = "<group>";
+		};
+		ED8CD74921D3BCFC00DA82E3 /* HariBolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CD74A21D3BCFC00DA82E3 /* HariBolUITests.swift */,
+				ED8CD74C21D3BCFC00DA82E3 /* Info.plist */,
+			);
+			path = HariBolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8CD72321D3BCF900DA82E3 /* HariBol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8CD74F21D3BCFC00DA82E3 /* Build configuration list for PBXNativeTarget "HariBol" */;
+			buildPhases = (
+				01F0250752813515581E1C63 /* [CP] Check Pods Manifest.lock */,
+				ED8CD72021D3BCF900DA82E3 /* Sources */,
+				ED8CD72121D3BCF900DA82E3 /* Frameworks */,
+				ED8CD72221D3BCF900DA82E3 /* Resources */,
+				9C12627D7D532A24CB66DEB5 /* [CP] Embed Pods Frameworks */,
+				C0062D00AABB64C67D6F6550 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HariBol;
+			productName = HariBol;
+			productReference = ED8CD72421D3BCF900DA82E3 /* HariBol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8CD73A21D3BCFC00DA82E3 /* HariBolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8CD75221D3BCFC00DA82E3 /* Build configuration list for PBXNativeTarget "HariBolTests" */;
+			buildPhases = (
+				CE5D9ABEBE2C8EEA6A094B4F /* [CP] Check Pods Manifest.lock */,
+				ED8CD73721D3BCFC00DA82E3 /* Sources */,
+				ED8CD73821D3BCFC00DA82E3 /* Frameworks */,
+				ED8CD73921D3BCFC00DA82E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8CD73D21D3BCFC00DA82E3 /* PBXTargetDependency */,
+			);
+			name = HariBolTests;
+			productName = HariBolTests;
+			productReference = ED8CD73B21D3BCFC00DA82E3 /* HariBolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED8CD74521D3BCFC00DA82E3 /* HariBolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8CD75521D3BCFC00DA82E3 /* Build configuration list for PBXNativeTarget "HariBolUITests" */;
+			buildPhases = (
+				8D0C26FBAE7F73C27172993F /* [CP] Check Pods Manifest.lock */,
+				ED8CD74221D3BCFC00DA82E3 /* Sources */,
+				ED8CD74321D3BCFC00DA82E3 /* Frameworks */,
+				ED8CD74421D3BCFC00DA82E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8CD74821D3BCFC00DA82E3 /* PBXTargetDependency */,
+			);
+			name = HariBolUITests;
+			productName = HariBolUITests;
+			productReference = ED8CD74621D3BCFC00DA82E3 /* HariBolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8CD71C21D3BCF900DA82E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = haribol;
+				TargetAttributes = {
+					ED8CD72321D3BCF900DA82E3 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					ED8CD73A21D3BCFC00DA82E3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED8CD72321D3BCF900DA82E3;
+					};
+					ED8CD74521D3BCFC00DA82E3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED8CD72321D3BCF900DA82E3;
+					};
+				};
+			};
+			buildConfigurationList = ED8CD71F21D3BCF900DA82E3 /* Build configuration list for PBXProject "HariBol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8CD71B21D3BCF900DA82E3;
+			productRefGroup = ED8CD72521D3BCF900DA82E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8CD72321D3BCF900DA82E3 /* HariBol */,
+				ED8CD73A21D3BCFC00DA82E3 /* HariBolTests */,
+				ED8CD74521D3BCFC00DA82E3 /* HariBolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8CD72221D3BCF900DA82E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8CD73521D3BCFC00DA82E3 /* LaunchScreen.storyboard in Resources */,
+				ED8CD73221D3BCFC00DA82E3 /* Assets.xcassets in Resources */,
+				ED8CD72D21D3BCF900DA82E3 /* Main.storyboard in Resources */,
+				43DBEF53224D311500ACE768 /* EmptyCart.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CD73921D3BCFC00DA82E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CD74421D3BCFC00DA82E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F0250752813515581E1C63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HariBol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0C26FBAE7F73C27172993F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HariBolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C12627D7D532A24CB66DEB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HariBol/Pods-HariBol-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/CitrusGraphics/Framework/graphics-sdk/CitrusGraphics.framework",
+				"${BUILT_PRODUCTS_DIR}/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CitrusGraphics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollapsibleTableSectionViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUCustomBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HariBol/Pods-HariBol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0062D00AABB64C67D6F6550 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HariBol/Pods-HariBol-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HariBol/Pods-HariBol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5D9ABEBE2C8EEA6A094B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HariBolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8CD72021D3BCF900DA82E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED24A08321DA3AE70059B505 /* AccountInfoVC.swift in Sources */,
+				430C4CD7220B38660094E60B /* iCarousel.m in Sources */,
+				43EDCB36222665A800D4497E /* SubscriptionCell.swift in Sources */,
+				43DBEF55224D336300ACE768 /* EmptyCart.swift in Sources */,
+				438CE414221C3D1400CCB7AE /* Datavalue.swift in Sources */,
+				43F93040222CF6C8007C3F0D /* VacationPlanVC.swift in Sources */,
+				438CE40E221C217200CCB7AE /* UIImage+Extension.swift in Sources */,
+				ED44371621E1A32000CFD2AB /* ReachabilityManager.swift in Sources */,
+				4312D1AC221E8A6A007F3A38 /* OrderData.swift in Sources */,
+				4329F4142213BEAA00648B61 /* MainViewCell.swift in Sources */,
+				ED57E64B21DCFA8300F88EFA /* ProductListCell.swift in Sources */,
+				43ED986C22303A9200A2B8EB /* PaymentCell.swift in Sources */,
+				43591B9E2207041E00C1D5A9 /* ProfileVC.swift in Sources */,
+				438CE3DD221BD55C00CCB7AE /* ProfileResponse.swift in Sources */,
+				43EFC678220EE98200FE37DA /* NotificationsVC.swift in Sources */,
+				ED24A08C21DC8A8C0059B505 /* MainViewController.swift in Sources */,
+				43EFC676220EE96700FE37DA /* PaymentVC.swift in Sources */,
+				ED24A08521DA3EEC0059B505 /* AddressVC.swift in Sources */,
+				ED8CD73021D3BCF900DA82E3 /* HariBol.xcdatamodeld in Sources */,
+				43CFD83622107EDD006A63D4 /* SelectedProductCell.swift in Sources */,
+				438CE3A822186D7800CCB7AE /* FeedbackVC.swift in Sources */,
+				ED24A08121DA35D80059B505 /* UIButton+Extension.swift in Sources */,
+				433B33742210586200F6618C /* BadgeButton.swift in Sources */,
+				ED44371221E1A07F00CFD2AB /* HaribolAPI.swift in Sources */,
+				ED24A07D21DA17EF0059B505 /* UITextField+Extension.swift in Sources */,
+				ED57E64921DCF1F100F88EFA /* SubscriptionVC.swift in Sources */,
+				43BD17D122324D8800B79A15 /* SubscriptionModel.swift in Sources */,
+				ED44371A21E1AEF300CFD2AB /* HaribolAlert.swift in Sources */,
+				43EFC66C220D8FD800FE37DA /* FSCalendarScopeViewController.swift in Sources */,
+				43EFC670220EC61F00FE37DA /* CollapsibleProductsVC.swift in Sources */,
+				43591B982206C17300C1D5A9 /* HaribolTabVC.swift in Sources */,
+				ED24A07F21DA34F60059B505 /* VerifyOTPVC.swift in Sources */,
+				ED8CD72A21D3BCF900DA82E3 /* LoginVC.swift in Sources */,
+				438CE415221C3D1400CCB7AE /* Products_Base.swift in Sources */,
+				ED44371721E1A32000CFD2AB /* Reachability.swift in Sources */,
+				438CE413221C3D1400CCB7AE /* Products.swift in Sources */,
+				ED8CD72821D3BCF900DA82E3 /* AppDelegate.swift in Sources */,
+				4312D1AB221E8A6A007F3A38 /* Ordered_Base.swift in Sources */,
+				ED24A08721DC823C0059B505 /* UILabel+Extension.swift in Sources */,
+				43F93080222D3186007C3F0D /* PayUServiceHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CD73721D3BCFC00DA82E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8CD74021D3BCFC00DA82E3 /* HariBolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CD74221D3BCFC00DA82E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8CD74B21D3BCFC00DA82E3 /* HariBolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8CD73D21D3BCFC00DA82E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8CD72321D3BCF900DA82E3 /* HariBol */;
+			targetProxy = ED8CD73C21D3BCFC00DA82E3 /* PBXContainerItemProxy */;
+		};
+		ED8CD74821D3BCFC00DA82E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8CD72321D3BCF900DA82E3 /* HariBol */;
+			targetProxy = ED8CD74721D3BCFC00DA82E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8CD72B21D3BCF900DA82E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8CD72C21D3BCF900DA82E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8CD73321D3BCFC00DA82E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8CD73421D3BCFC00DA82E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8CD74D21D3BCFC00DA82E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED8CD74E21D3BCFC00DA82E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8CD75021D3BCFC00DA82E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9710D672AB59412454FC664A /* Pods-HariBol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2WN5NLNKS;
+				INFOPLIST_FILE = HariBol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haribol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HariBol/view/ViewControllers/Carousel/HariBol-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED8CD75121D3BCFC00DA82E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3146F40B45D662BEE653A651 /* Pods-HariBol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2WN5NLNKS;
+				INFOPLIST_FILE = HariBol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haribol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HariBol/view/ViewControllers/Carousel/HariBol-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ED8CD75321D3BCFC00DA82E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CC354C8D19434DDCE0FAC9 /* Pods-HariBolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HariBolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HariBol.HariBolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HariBol.app/HariBol";
+			};
+			name = Debug;
+		};
+		ED8CD75421D3BCFC00DA82E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D44ECE3F472484D8BAC1F8 /* Pods-HariBolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HariBolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HariBol.HariBolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HariBol.app/HariBol";
+			};
+			name = Release;
+		};
+		ED8CD75621D3BCFC00DA82E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C8A68E8EC75AB1E4200D1C /* Pods-HariBolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HariBolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HariBol.HariBolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HariBol;
+			};
+			name = Debug;
+		};
+		ED8CD75721D3BCFC00DA82E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A467E13E302E0BEB144F891 /* Pods-HariBolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HariBolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HariBol.HariBolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HariBol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8CD71F21D3BCF900DA82E3 /* Build configuration list for PBXProject "HariBol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8CD74D21D3BCFC00DA82E3 /* Debug */,
+				ED8CD74E21D3BCFC00DA82E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8CD74F21D3BCFC00DA82E3 /* Build configuration list for PBXNativeTarget "HariBol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8CD75021D3BCFC00DA82E3 /* Debug */,
+				ED8CD75121D3BCFC00DA82E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8CD75221D3BCFC00DA82E3 /* Build configuration list for PBXNativeTarget "HariBolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8CD75321D3BCFC00DA82E3 /* Debug */,
+				ED8CD75421D3BCFC00DA82E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8CD75521D3BCFC00DA82E3 /* Build configuration list for PBXNativeTarget "HariBolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8CD75621D3BCFC00DA82E3 /* Debug */,
+				ED8CD75721D3BCFC00DA82E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED8CD72E21D3BCF900DA82E3 /* HariBol.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED8CD72F21D3BCF900DA82E3 /* HariBol.xcdatamodel */,
+			);
+			currentVersion = ED8CD72F21D3BCF900DA82E3 /* HariBol.xcdatamodel */;
+			path = HariBol.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED8CD71C21D3BCF900DA82E3 /* Project object */;
+}

@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (4.8.0)
+  - CitrusGraphics (2.1.0)
+  - CollapsibleTableSectionViewController (1.0.1)
+  - DLRadioButton (1.4.12)
+  - FSCalendar (2.8.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - PayUIndia-Custom-Browser (5.8.1)
+  - PayUmoney_CoreSDK (3.7):
+    - PayUIndia-Custom-Browser (~> 5.8.1)
+  - PayUmoney_PnP (2.3.2):
+    - CitrusGraphics
+    - PayUmoney_CoreSDK
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - CollapsibleTableSectionViewController (~> 1.0.0)
+  - DLRadioButton (~> 1.4)
+  - FSCalendar
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - PayUmoney_PnP (~> 2.3.2)
+  - SCLAlertView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CitrusGraphics
+    - CollapsibleTableSectionViewController
+    - DLRadioButton
+    - FSCalendar
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - PayUIndia-Custom-Browser
+    - PayUmoney_CoreSDK
+    - PayUmoney_PnP
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  CitrusGraphics: 21ca86e16760e4226d48f6e2bfbf0d40d5f8c285
+  CollapsibleTableSectionViewController: c41694de812a1039c5f8581c934cf0fc38e4e871
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  PayUIndia-Custom-Browser: 27dc0dc866f817dcd96e9ffca8b002827a0912b2
+  PayUmoney_CoreSDK: 9c270b1ba54ae49ec57a2cbddc9fcd97e1d398e8
+  PayUmoney_PnP: 4169afe1ff03288a9ba091a463ad99caefdefd4f
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: 7e57498810df74b683ae4aab4ed5fc49ceb34d0e
+
+COCOAPODS: 1.5.3
